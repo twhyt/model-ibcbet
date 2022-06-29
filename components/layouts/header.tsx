@@ -87,7 +87,7 @@ const SiteHeader = (props: any) => {
                             </Col>
                             <Col>
                                 {/* change language button */}
-                                {dropdownLanguage}
+                                {dropdownLanguage()}
                                 {/* ###################### */}
                             </Col>
                         </Row>
@@ -118,7 +118,7 @@ const SiteHeader = (props: any) => {
                             </Col>
                             <Col>
                                 {/* change language button */}
-                                {dropdownLanguage}
+                                {dropdownLanguage()}
                                 {/* ###################### */}
                             </Col>
                         </Row>
