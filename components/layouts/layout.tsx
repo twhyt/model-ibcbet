@@ -23,6 +23,12 @@ const WrapperContainer = styled.div`
         width: 100%;
         position: sticky;
         top: 0;
+
+        background: #E2E9F1;
+
+        @media (max-width: 1440px) {
+            padding: 0 10px;
+        }
     }
 
     @-webkit-keyframes rotating /* Safari and Chrome */ {
